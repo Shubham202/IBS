@@ -117,7 +117,17 @@ a:hover {
 /* ------------result------------ */
 
 .results {
-    height: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+
+.results img {
+    border-radius: 15px;
+    width: 40vw;
+    height: inherit;
+    background-size: cover;
 }
 
 /* -----------/result------------ */
