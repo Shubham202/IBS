@@ -37,3 +37,10 @@ $(".ssubmit").click(function () {
     );
     $("feedform3").hide();
 });
+
+
+// Loading Animation
+$(function () {
+    $("body").hide();
+    $("body").fadeIn(3000);
+})();
